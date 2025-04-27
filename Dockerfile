@@ -1,4 +1,4 @@
-FROM python:3.13.3-slim
+FROM python:3.11.9-slim
 ENV DEBIAN_FRONTEND=noninteractive
 # Install dependencies
 RUN apt-get update && apt-get install -y
@@ -18,4 +18,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Set the default command to run when the container starts.
-CMD ["python3", "-u", "main.py"]
+CMD ["python", "main.py"]
