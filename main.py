@@ -273,6 +273,5 @@ def main_processer(client, message):
                 shutil.rmtree(download_dir)
 
 
-
-print("PixelDrain bot Started!!!...", flush=True)
-app.run() 
+print("Bot Started")
+app.run()
