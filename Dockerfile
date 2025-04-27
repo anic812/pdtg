@@ -1,5 +1,5 @@
 
-FROM python:3.11.9-slim
+FROM python:3.13-slim
 
 ENV DEBIAN_FRONTEND=noninteractive
 # Install dependencies
