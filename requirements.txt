@@ -1,0 +1,4 @@
+pySmartDL
+requests
+#tgcrypto
+https://github.com/KurimuzonAkuma/pyrogram/archive/refs/tags/v2.2.1.zip
