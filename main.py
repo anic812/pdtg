@@ -1,5 +1,4 @@
-import re, os, shutil, zipfile
-from subprocess import Popen
+import re, os, shutil
 import time
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
