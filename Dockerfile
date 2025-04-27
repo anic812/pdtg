@@ -1,6 +1,4 @@
-
-FROM python:3.13-slim
-
+FROM python:3.13.3-slim
 ENV DEBIAN_FRONTEND=noninteractive
 # Install dependencies
 RUN apt-get update && apt-get install -y
