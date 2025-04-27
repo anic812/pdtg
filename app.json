@@ -1,9 +1,4 @@
 {
     "name": "pdtg",
-    "stack": "container",
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
-    ]
+    "stack": "container"
 }
